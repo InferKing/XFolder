@@ -1,0 +1,38 @@
+{
+    "version": "1.0.0",
+    "author": "1nfer.exe",
+    "matches": {
+        "img": {
+            "extensions": [".jpg", ".png", ".gif", ".jpeg", ".ico", ".svg", ".webp", ".bmp", ".tiff"],
+            "folder": "images"
+        },
+        "txt": {
+            "extensions": [".txt", ".md", ".log", ".ini", ".json", ".xml", ".csv", "doc", "docx", "docm"],
+            "folder": "documents"
+        },
+        "video": {
+            "extensions": [".mp4", ".avi", ".mkv", ".mov", ".mpg", ".mpeg", ".wmv", ".flv", ".webm", ".m4v", ".3gp"],
+            "folder": "videos"
+        },
+        "audio": {
+            "extensions": [".mp3", ".wav", ".ogg", ".aac", ".wma", ".flac"],
+            "folder": "audio"
+        },
+        "archive": {
+            "extensions": [".zip", ".rar", ".7z", ".tar", ".gz", ".bz2", ".xz", ".iso"],
+            "folder": "archives"
+        },
+        "pdf": {
+            "extensions": [".pdf"],
+            "folder": "pdf"
+        },
+        "code": {
+            "extensions": [".py", ".c", ".cpp", ".h", ".cs", ".java", ".js", ".ts", ".php", ".html", ".css", ".sql", ".sh"],
+            "folder": "code"
+        },
+        "other": {
+            "extensions": [],
+            "folder": "other"
+        }
+    }
+}
