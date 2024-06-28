@@ -38,7 +38,7 @@ class FileSorter:
         matches = self.__config["matches"]
         for key in matches:
             for file in matches[key]["extensions"]:
-                for root, dirs, files in os.walk(self.__args.path):
+                for root, dirs, files in os.walk(rf'{self.__args.path}'):
                     if self.__args.no_recursive:
                         dirs.clear()
                     for name in files:
